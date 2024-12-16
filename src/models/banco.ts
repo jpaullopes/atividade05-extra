@@ -60,8 +60,7 @@ export class Banco{
             conta.setCliente(new Cliente()); //remove o cliente de todas as contas, adiciona um cliente vazio
         }
         this.clientes = this.clientes.filter(cliente => cliente.getCpf() !== cpf);
-        //a forma de remover o cliente acima é mais intendivél do que a da de remover conta
-        //lembrar de usar o filter mais vezes
+        //tinha algo aqui
     }
 
 
